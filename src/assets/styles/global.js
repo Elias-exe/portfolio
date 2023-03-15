@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import background from "../images/imagem-background.svg";
+import AnimatedBackground from "../../components/AnimatedBackground";
 
 export default createGlobalStyle`
   *{
@@ -9,9 +9,7 @@ export default createGlobalStyle`
     font-family: 'Sora' , sans-serif;
   }
 body{
-  background: url(${background}) no-repeat;
-  background-size: cover;
-  background-color: rgba(0,0,0,0.7);
+  background: url(${AnimatedBackground});
   font-size: 16px;
   color: ${({ theme }) => theme.colors.primary[200]}
 }

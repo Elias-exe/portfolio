@@ -10,7 +10,6 @@ export const Container = styled.header`
   padding: 0 120px;
   align-items: center;
   font-weight: bold;
-  background-color: ${({ theme }) => theme.colors.primary[700]};
 
   a{
     color: ${({ theme }) => theme.colors.primary[300]};
