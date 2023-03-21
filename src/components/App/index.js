@@ -8,6 +8,7 @@ import AnimatedBackground from "../AnimatedBackground";
 
 import Header from "../Header";
 import Rotas from "../Rotas";
+import Footer from "../Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Container>
           <Header />
           <Rotas />
+          <Footer />
           <AnimatedBackground />
         </Container>
       </ThemeProvider>

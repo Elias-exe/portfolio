@@ -35,6 +35,7 @@ export const Container = styled.div`
 .background span:nth-child(0) {
     color: #ffffff;
     top: 57%;
+    opacity: 0.8;
     left: 23%;
     animation-duration: 56s;
     animation-delay: -28s;
@@ -44,6 +45,7 @@ export const Container = styled.div`
 .background span:nth-child(1) {
     color: #ffffff;
     top: 51%;
+    opacity: 0.8;
     left: 44%;
     animation-duration: 15s;
     animation-delay: -33s;
@@ -53,6 +55,7 @@ export const Container = styled.div`
 .background span:nth-child(2) {
     color: #ffffff;
     top: 90%;
+    opacity: 0.8;
     left: 65%;
     animation-duration: 167s;
     animation-delay: -410s;
@@ -62,6 +65,7 @@ export const Container = styled.div`
 .background span:nth-child(3) {
     color: #ffffff;
     top: 92%;
+    opacity: 0.8;
     left: 79%;
     animation-duration: 324s;
     animation-delay: -32s;
@@ -71,6 +75,7 @@ export const Container = styled.div`
 .background span:nth-child(4) {
     color: #ffffff;
     top: 51%;
+    opacity: 0.8;
     left: 73%;
     animation-duration: 295s;
     animation-delay: -302s;
@@ -80,6 +85,7 @@ export const Container = styled.div`
 .background span:nth-child(5) {
     color: #ffffff;
     top: 99%;
+    opacity: 0.8;
     left: 2%;
     animation-duration: 24s;
     animation-delay: -222s;
@@ -89,6 +95,7 @@ export const Container = styled.div`
 .background span:nth-child(6) {
     color: #ffffff;
     top: 67%;
+    opacity: 0.8;
     left: 80%;
     animation-duration: 288s;
     animation-delay: -380s;
@@ -98,6 +105,7 @@ export const Container = styled.div`
 .background span:nth-child(7) {
     color: #ffffff;
     top: 88%;
+    opacity: 0.8;
     left: 54%;
     animation-duration: 215s;
     animation-delay: -257s;
@@ -107,6 +115,7 @@ export const Container = styled.div`
 .background span:nth-child(8) {
     color: #ffffff;
     top: 78%;
+    opacity: 0.8;
     left: 33%;
     animation-duration: 154s;
     animation-delay: -340s;
@@ -116,6 +125,7 @@ export const Container = styled.div`
 .background span:nth-child(9) {
     color: #ffffff;
     top: 67%;
+    opacity: 0.8;
     left: 78%;
     animation-duration: 277s;
     animation-delay: -49s;
@@ -125,6 +135,7 @@ export const Container = styled.div`
 .background span:nth-child(10) {
     color: #ffffff;
     top: 50%;
+    opacity: 0.8;
     left: 93%;
     animation-duration: 146s;
     animation-delay: -115s;
@@ -134,6 +145,7 @@ export const Container = styled.div`
 .background span:nth-child(11) {
     color: #ffffff;
     top: 46%;
+    opacity: 0.8;
     left: 87%;
     animation-duration: 91s;
     animation-delay: -348s;
@@ -143,6 +155,7 @@ export const Container = styled.div`
 .background span:nth-child(12) {
     color: #ffffff;
     top: 29%;
+    opacity: 0.8;
     left: 5%;
     animation-duration: 72s;
     animation-delay: -237s;
@@ -152,6 +165,7 @@ export const Container = styled.div`
 .background span:nth-child(13) {
     color: #ffffff;
     top: 22%;
+    opacity: 0.8;
     left: 57%;
     animation-duration: 423s;
     animation-delay: -51s;
@@ -161,6 +175,7 @@ export const Container = styled.div`
 .background span:nth-child(14) {
     color: #ffffff;
     top: 20%;
+    opacity: 0.8;
     left: 57%;
     animation-duration: 61s;
     animation-delay: -406s;
@@ -170,6 +185,7 @@ export const Container = styled.div`
 .background span:nth-child(15) {
     color: #ffffff;
     top: 26%;
+    opacity: 0.8;
     left: 79%;
     animation-duration: 258s;
     animation-delay: -77s;
@@ -179,6 +195,7 @@ export const Container = styled.div`
 .background span:nth-child(16) {
     color: #ffffff;
     top: 34%;
+    opacity: 0.8;
     left: 31%;
     animation-duration: 269s;
     animation-delay: -345s;
@@ -188,6 +205,7 @@ export const Container = styled.div`
 .background span:nth-child(17) {
     color: #ffffff;
     top: 95%;
+    opacity: 0.8;
     left: 55%;
     animation-duration: 418s;
     animation-delay: -284s;
@@ -197,6 +215,7 @@ export const Container = styled.div`
 .background span:nth-child(18) {
     color: #ffffff;
     top: 74%;
+    opacity: 0.8;
     left: 79%;
     animation-duration: 111s;
     animation-delay: -54s;
@@ -206,6 +225,7 @@ export const Container = styled.div`
 .background span:nth-child(19) {
     color: #ffffff;
     top: 64%;
+    opacity: 0.8;
     left: 42%;
     animation-duration: 12s;
     animation-delay: -301s;
@@ -215,6 +235,7 @@ export const Container = styled.div`
 .background span:nth-child(20) {
     color: #ffffff;
     top: 37%;
+    opacity: 0.8;
     left: 7%;
     animation-duration: 313s;
     animation-delay: -160s;
@@ -224,6 +245,7 @@ export const Container = styled.div`
 .background span:nth-child(21) {
     color: #ffffff;
     top: 88%;
+    opacity: 0.8;
     left: 32%;
     animation-duration: 163s;
     animation-delay: -323s;
@@ -233,6 +255,7 @@ export const Container = styled.div`
 .background span:nth-child(22) {
     color: #ffffff;
     top: 74%;
+    opacity: 0.8;
     left: 65%;
     animation-duration: 244s;
     animation-delay: -59s;
@@ -242,6 +265,7 @@ export const Container = styled.div`
 .background span:nth-child(23) {
     color: #ffffff;
     top: 37%;
+    opacity: 0.8;
     left: 64%;
     animation-duration: 381s;
     animation-delay: -309s;
@@ -251,6 +275,7 @@ export const Container = styled.div`
 .background span:nth-child(24) {
     color: #ffffff;
     top: 12%;
+    opacity: 0.8;
     left: 69%;
     animation-duration: 157s;
     animation-delay: -184s;
@@ -260,6 +285,7 @@ export const Container = styled.div`
 .background span:nth-child(25) {
     color: #ffffff;
     top: 44%;
+    opacity: 0.8;
     left: 88%;
     animation-duration: 86s;
     animation-delay: -147s;
@@ -269,6 +295,7 @@ export const Container = styled.div`
 .background span:nth-child(26) {
     color: #ffffff;
     top: 77%;
+    opacity: 0.8;
     left: 85%;
     animation-duration: 362s;
     animation-delay: -307s;
@@ -278,6 +305,7 @@ export const Container = styled.div`
 .background span:nth-child(27) {
     color: #ffffff;
     top: 43%;
+    opacity: 0.8;
     left: 39%;
     animation-duration: 9s;
     animation-delay: -262s;
@@ -287,6 +315,7 @@ export const Container = styled.div`
 .background span:nth-child(28) {
     color: #ffffff;
     top: 9%;
+    opacity: 0.8;
     left: 89%;
     animation-duration: 334s;
     animation-delay: -117s;
@@ -296,6 +325,7 @@ export const Container = styled.div`
 .background span:nth-child(29) {
     color: #ffffff;
     top: 21%;
+    opacity: 0.8;
     left: 68%;
     animation-duration: 269s;
     animation-delay: -295s;
@@ -305,6 +335,7 @@ export const Container = styled.div`
 .background span:nth-child(30) {
     color: #ffffff;
     top: 92%;
+    opacity: 0.8;
     left: 53%;
     animation-duration: 132s;
     animation-delay: -5s;
@@ -314,6 +345,7 @@ export const Container = styled.div`
 .background span:nth-child(31) {
     color: #ffffff;
     top: 37%;
+    opacity: 0.8;
     left: 13%;
     animation-duration: 301s;
     animation-delay: -385s;
@@ -323,6 +355,7 @@ export const Container = styled.div`
 .background span:nth-child(32) {
     color: #ffffff;
     top: 21%;
+    opacity: 0.8;
     left: 12%;
     animation-duration: 367s;
     animation-delay: -245s;
@@ -332,6 +365,7 @@ export const Container = styled.div`
 .background span:nth-child(33) {
     color: #ffffff;
     top: 74%;
+    opacity: 0.8;
     left: 56%;
     animation-duration: 405s;
     animation-delay: -283s;
@@ -341,6 +375,7 @@ export const Container = styled.div`
 .background span:nth-child(34) {
     color: #ffffff;
     top: 42%;
+    opacity: 0.8;
     left: 97%;
     animation-duration: 378s;
     animation-delay: -173s;
@@ -350,6 +385,7 @@ export const Container = styled.div`
 .background span:nth-child(35) {
     color: #ffffff;
     top: 29%;
+    opacity: 0.8;
     left: 33%;
     animation-duration: 390s;
     animation-delay: -383s;
@@ -359,6 +395,7 @@ export const Container = styled.div`
 .background span:nth-child(36) {
     color: #ffffff;
     top: 54%;
+    opacity: 0.8;
     left: 49%;
     animation-duration: 287s;
     animation-delay: -117s;
@@ -368,6 +405,7 @@ export const Container = styled.div`
 .background span:nth-child(37) {
     color: #ffffff;
     top: 73%;
+    opacity: 0.8;
     left: 4%;
     animation-duration: 265s;
     animation-delay: -420s;
@@ -377,6 +415,7 @@ export const Container = styled.div`
 .background span:nth-child(38) {
     color: #ffffff;
     top: 50%;
+    opacity: 0.8;
     left: 20%;
     animation-duration: 37s;
     animation-delay: -149s;
@@ -386,6 +425,7 @@ export const Container = styled.div`
 .background span:nth-child(39) {
     color: #ffffff;
     top: 34%;
+    opacity: 0.8;
     left: 72%;
     animation-duration: 225s;
     animation-delay: -120s;
@@ -395,6 +435,7 @@ export const Container = styled.div`
 .background span:nth-child(40) {
     color: #ffffff;
     top: 32%;
+    opacity: 0.8;
     left: 77%;
     animation-duration: 316s;
     animation-delay: -158s;
@@ -404,6 +445,7 @@ export const Container = styled.div`
 .background span:nth-child(41) {
     color: #ffffff;
     top: 91%;
+    opacity: 0.8;
     left: 84%;
     animation-duration: 229s;
     animation-delay: -347s;
@@ -413,6 +455,7 @@ export const Container = styled.div`
 .background span:nth-child(42) {
     color: #ffffff;
     top: 26%;
+    opacity: 0.8;
     left: 26%;
     animation-duration: 92s;
     animation-delay: -332s;
@@ -422,6 +465,7 @@ export const Container = styled.div`
 .background span:nth-child(43) {
     color: #ffffff;
     top: 31%;
+    opacity: 0.8;
     left: 21%;
     animation-duration: 216s;
     animation-delay: -94s;
@@ -431,6 +475,7 @@ export const Container = styled.div`
 .background span:nth-child(44) {
     color: #ffffff;
     top: 93%;
+    opacity: 0.8;
     left: 86%;
     animation-duration: 345s;
     animation-delay: -96s;
@@ -440,6 +485,7 @@ export const Container = styled.div`
 .background span:nth-child(45) {
     color: #ffffff;
     top: 54%;
+    opacity: 0.8;
     left: 100%;
     animation-duration: 332s;
     animation-delay: -2s;
@@ -449,6 +495,7 @@ export const Container = styled.div`
 .background span:nth-child(46) {
     color: #ffffff;
     top: 50%;
+    opacity: 0.8;
     left: 46%;
     animation-duration: 415s;
     animation-delay: -164s;
@@ -458,6 +505,7 @@ export const Container = styled.div`
 .background span:nth-child(47) {
     color: #ffffff;
     top: 8%;
+    opacity: 0.8;
     left: 84%;
     animation-duration: 151s;
     animation-delay: -96s;
@@ -467,6 +515,7 @@ export const Container = styled.div`
 .background span:nth-child(48) {
     color: #ffffff;
     top: 42%;
+    opacity: 0.8;
     left: 68%;
     animation-duration: 357s;
     animation-delay: -209s;
@@ -476,6 +525,7 @@ export const Container = styled.div`
 .background span:nth-child(49) {
     color: #ffffff;
     top: 53%;
+    opacity: 0.8;
     left: 34%;
     animation-duration: 23s;
     animation-delay: -259s;

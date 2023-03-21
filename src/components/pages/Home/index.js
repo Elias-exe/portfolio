@@ -1,5 +1,11 @@
+/* eslint-disable react/jsx-closing-tag-location */
+/* eslint-disable max-len */
+/* eslint-disable react/jsx-indent */
+/* eslint-disable react/jsx-one-expression-per-line */
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import Typewritter from "../../Typewritter";
 import { Container } from "./styles";
-import developer from "../../../assets/images/developer.png";
+import ReactIcon from "../../../assets/images/React-icon.svg.png";
 
 export default function Home() {
   return (
@@ -12,21 +18,50 @@ export default function Home() {
             {" "}
             <span>GABRIEL ELIAS</span>
           </p>
-          <span className="function">Fullstack Developer</span>
+          <span className="function">{Typewritter()}</span>
         </div>
         <div className="photo">
-          <img src={developer} alt="developerPhoto" />
+          <img src={ReactIcon} alt="ReactIcon" className="rotate-center" />
         </div>
       </div>
-      <div className="introduceMyself">
-        <span>LET ME INTRODUCE MYSELF</span>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Tenetur aut perspiciatis cupiditate, quas voluptatem eum dicta quia
-          iure placeat vel. Omnis commodi blanditiis nam nisi delectus aspernatur
-          ad suscipit tempore?
 
-        </p>
+      <div className="introduceMyself">
+        <span>LET ME <span className="emphasisTitle">INTRODUCE</span> MYSELF</span>
+        <div className="description">
+          <p>
+            Hello, my name is Gabriel Elias Machado, Im 20 years old,
+            I was born and raised in Araraquara, São Paulo.
+          </p>
+          <p>
+            I always liked the IT area so in 2017 I joined ETEC Anna de Oliveira
+            Ferraz studying <span className="emphasis">IT Technician</span>. After <span className="emphasis">learning Front-End, Back-End,infrastructure and database</span>, I had the opportunity to create my TCC
+            which was a game developed on the Game Maker platform using the GML
+            language, in the project I was responsible for the creative and
+            development part.
+          </p>
+          <p>
+            I am currently graduated in <span className="emphasis">Systems Analysis and Development</span> at UNIP
+            Araraquara, and I am also part of the development team at <span className="emphasis">Andritz Hydro
+            Brasil</span>, I continue to improve my skills through courses and communities such as JStack.
+          </p>
+        </div>
+      </div>
+
+      <div className="socialMedias">
+        <span className="findMeOn">FIND ME ON</span>
+        <span className="socialMediaDescription">Fell free to connect with me</span>
+        <div className="social">
+          <a
+            href="https://github.com/Elias-exe?tab=repositories"
+          >
+            <AiFillGithub />
+            </a>
+          <a
+            href="https://www.linkedin.com/in/machado-elias/"
+          >
+            <AiFillLinkedin />
+            </a>
+        </div>
       </div>
     </Container>
   );

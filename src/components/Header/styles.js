@@ -25,5 +25,16 @@ export const Container = styled.header`
   .projectsContainer{
     display: flex;
     gap:25px;
+
+    a{
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    .icon{
+      margin-right: 8px;
+    }
+
   }
 `;

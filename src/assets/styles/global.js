@@ -6,7 +6,7 @@ export default createGlobalStyle`
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Sora' , sans-serif;
+    font-family: 'League Spartan' , sans-serif;
   }
 body{
   background: url(${AnimatedBackground});
