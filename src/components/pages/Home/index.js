@@ -5,7 +5,7 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Typewritter from "../../Typewritter";
 import { Container } from "./styles";
-import ReactIcon from "../../../assets/images/React-icon.svg.png";
+// import ReactIcon from "../../../assets/images/React-icon.svg.png";
 
 export default function Home() {
   return (
@@ -19,9 +19,6 @@ export default function Home() {
             <span>GABRIEL ELIAS</span>
           </p>
           <span className="function">{Typewritter()}</span>
-        </div>
-        <div className="photo">
-          <img src={ReactIcon} alt="ReactIcon" className="rotate-center" />
         </div>
       </div>
 

@@ -4,6 +4,7 @@ export const Container = styled.footer`
   color: #fff;
   width: 100%;
   bottom: 0;
+  position: fixed;
 
   span{
     font-size:14px;
