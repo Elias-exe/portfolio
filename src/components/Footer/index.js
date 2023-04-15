@@ -12,10 +12,16 @@ export default function Footer() {
         <div className="socialMedias">
           <a
             href="https://github.com/Elias-exe?tab=repositories"
+            target="_blank"
+            rel="noreferrer"
           >
             <AiFillGithub />
           </a>
-          <a href="https://www.linkedin.com/in/machado-elias/">
+          <a
+            href="https://www.linkedin.com/in/machado-elias/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiFillLinkedin />
           </a>
         </div>
