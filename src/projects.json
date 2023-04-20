@@ -1,0 +1,7 @@
+[
+  {
+  "name":"MyContacts",
+  "description": "A project created from the backend in Node.JS with a CRUD of contacts, front end performing in React",
+  "imageName":"mycontact"
+  }
+]

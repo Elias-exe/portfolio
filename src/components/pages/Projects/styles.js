@@ -27,6 +27,7 @@ export const ProjectsContainer = styled.div`
   margin: 40px auto;
   justify-content: center;
   gap: 48px;
+  flex-wrap:wrap;
 `;
 
 export const CardContainer = styled.div`
@@ -50,6 +51,7 @@ export const CardContainer = styled.div`
     height: 180px;
     border-radius: 8px;
   }
+
 
   .projectTitle{
     margin-top: 16px;

@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import { CardContainer, Header, ProjectsContainer } from "./styles";
-import imgTest from "../../../assets/images/imgTest.jpg";
+import projects from "../../../projects.json";
+import Image from "../../Image";
 
 export default function Projects() {
   return (
@@ -10,36 +11,17 @@ export default function Projects() {
         <span>Here are a few projects I&rsquo;ve worked on recently</span>
       </Header>
       <ProjectsContainer>
-        <CardContainer>
-          <img src={imgTest} alt="Test" />
-          <h3 className="projectTitle">MyContacts</h3>
-          <span className="projectDescription">
-            Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Illo animi earum eligendi fuga,
-            perspiciatis architecto veniam nihil nostrum voluptates odit,
-            adipisci vitae necessitatibus in quia minima? Odit odio dolores eius?
-          </span>
-        </CardContainer>
-        <CardContainer>
-          <img src={imgTest} alt="Test" />
-          <h3 className="projectTitle">MyContacts</h3>
-          <span className="projectDescription">
-            Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Illo animi earum eligendi fuga,
-            perspiciatis architecto veniam nihil nostrum voluptates odit,
-            adipisci vitae necessitatibus in quia minima? Odit odio dolores eius?
-          </span>
-        </CardContainer>
-        <CardContainer>
-          <img src={imgTest} alt="Test" />
-          <h3 className="projectTitle">MyContacts</h3>
-          <span className="projectDescription">
-            Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Illo animi earum eligendi fuga,
-            perspiciatis architecto veniam nihil nostrum voluptates odit,
-            adipisci vitae necessitatibus in quia minima? Odit odio dolores eius?
-          </span>
-        </CardContainer>
+        {projects.map((project) => (
+
+          <CardContainer key={Math.random()}>
+            <Image fileName={project.imageName} alt="Deu doidera" className="Imagem" />
+            <h3 className="projectTitle">{project.name}</h3>
+            <span className="projectDescription">
+              {project.description}
+            </span>
+          </CardContainer>
+
+        ))}
       </ProjectsContainer>
     </>
   );
