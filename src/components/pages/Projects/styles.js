@@ -37,7 +37,13 @@ export const CardContainer = styled.div`
   justify-content: center;
   flex-direction: column;
   max-width: 300px;
+  max-height: 500px;
+  height: 100%;
   width: 100%;
+  :hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+  }
 
   border-radius: 8px;
   box-shadow: 0 0 .1rem #fff,
@@ -59,5 +65,28 @@ export const CardContainer = styled.div`
 
   .projectDescription{
     margin-top: 8px;
+  }
+`;
+
+export const ButtonContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+  a{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 8px;
+    background-color: ${({ theme }) => theme.colors.primary[500]};
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+
+    :hover{
+      background-color: ${({ theme }) => theme.colors.primary[300]};
+      transition: 0.2s;
+    }
   }
 `;

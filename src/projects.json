@@ -1,7 +1,53 @@
 [
   {
+    "name":"WaiterAPP",
+    "description": "Project created with React on Front End, Node.Js on Back end and React Native on mobile, personal project with the intention of selling to restaurants or snack bars to replace paper orders with something more practical",
+    "imageName":"waiterapp"
+    },
+  {
   "name":"MyContacts",
-  "description": "A project created from the backend in Node.JS with a CRUD of contacts, front end performing in React",
-  "imageName":"mycontact"
+  "description": "A project created from the backend in Node.JS with a CRUD of contacts, front end performing in React, my most up-to-date project and on which I spent the most time",
+  "imageName":"mycontact",
+  "github":"https://github.com/Elias-exe/MyContacts"
+  },
+  {
+    "name": "Country Quiz Challenge",
+    "description": "This project was developed with the aim of solving a challenge on the devchallenges page, which was not completed due to the API being offline.",
+    "imageName": "country-quiz-challenge",
+    "github": "https://github.com/Elias-exe/country-quiz-challenge"
+  },
+  {
+    "name":"Quote Generator",
+    "description": "Project created with React to solve the Quote Generator challenge from the devChallenges page",
+    "imageName": "quote-generator",
+    "github": "https://github.com/Elias-exe/Quote-Generator"
+  },
+  {
+    "name":"Todo App",
+    "description": "Project created with React for the challenge of creating a to-do list for the devChallenges website",
+    "imageName": "todo-app",
+    "github": "https://github.com/Elias-exe/Todo-App",
+    "demo": "https://todo-app-b7d92.web.app"
+  },
+  {
+    "name":"Winbnb",
+    "description": "Project created in React, challenge from the devChallenges website to create a copy of Airbnb, containing room search filters.",
+    "imageName": "winbnb",
+    "github": "https://github.com/Elias-exe/Winbnb",
+    "demo": "https://windbnb-58a1e.web.app"
+  },
+  {
+    "name":"Input Challenge",
+    "description": "Project created in React, challenge from the devChallenges website to create several input components in several different scenarios",
+    "imageName": "input-challenge",
+    "github": "https://github.com/Elias-exe/Input-Component-Challenge",
+    "demo": "https://input-component-f6669.web.app"
+  },
+  {
+    "name":"Button Challenge",
+    "description": "Project created in React, challenge from the devChallenges website to create several button components in several different scenarios",
+    "imageName": "button-challenge",
+    "github": "https://github.com/Elias-exe/Button-Component-Challenge",
+    "demo": "https://button-component-8ef0d.web.app"
   }
 ]

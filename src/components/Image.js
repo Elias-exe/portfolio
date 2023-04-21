@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import ReactLoading from "react-loading";
 import { useImage } from "../hooks/useImage";
 
 export default function Image({
@@ -6,13 +7,11 @@ export default function Image({
 }) {
   const { loading, error, image } = useImage(fileName);
 
-  console.log(image);
-
   if (error) return <span>{alt}</span>;
 
   return (
     loading ? (
-      <span>loading</span>
+      <ReactLoading type="spin" color="blue" />
     ) : (
       <img
         className={`Image${
