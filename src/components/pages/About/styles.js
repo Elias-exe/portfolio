@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   margin-top: 80px;
+  margin-bottom: 20px;
   padding: 0 120px;
   img{
     width: 100%;
