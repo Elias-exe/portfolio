@@ -16,10 +16,10 @@ export default function Header() {
           <span className="icon"><BsFillPersonFill /></span>
           About
         </Link>
-        <Link to="/resume">
+        <a href="https://raw.githubusercontent.com/Elias-exe/portfolio/1ad4b44e68817a0f5f83fae51df458e499046a18/src/assets/Curriculo.pdf">
           <span className="icon"><AiOutlineFile /></span>
           Resume
-        </Link>
+        </a>
       </div>
     </Container>
   );
