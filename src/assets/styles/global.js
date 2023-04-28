@@ -11,7 +11,7 @@ export default createGlobalStyle`
 body{
   background: url(${AnimatedBackground});
   font-size: 16px;
-  color: ${({ theme }) => theme.colors.primary[200]}
+  color: ${({ theme }) => theme.colors.primary[200]};
 }
 
 button{

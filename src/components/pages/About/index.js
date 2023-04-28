@@ -15,11 +15,9 @@ export default function About() {
         <div className="aboutMe">
           <div className="title"><h1>Know Who Im</h1></div>
           <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            cum perspiciatis, totam vel quas ad aperiam deleniti facere commodi
-            illum illo, exercitationem ducimus consequuntur architecto ipsam
-            dignissimos beatae consequatur distinctio?
-
+            Hi Everyone, I am Gabriel Elias from Araraquara, Brazil.
+            <br />
+            I am an IT apprentice at Andritz Hydro.
           </span>
         </div>
         <div className="imageContainer">

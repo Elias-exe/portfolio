@@ -5,6 +5,7 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Typewritter from "../../Typewritter";
 import { Container } from "./styles";
+import dinossaurImage from "../../../assets/images/google-dinossaur.png";
 // import ReactIcon from "../../../assets/images/React-icon.svg.png";
 
 export default function Home() {
@@ -19,6 +20,9 @@ export default function Home() {
             <span>GABRIEL ELIAS</span>
           </p>
           <span className="function">{Typewritter()}</span>
+        </div>
+        <div className="photo">
+        <img src={dinossaurImage} alt="dinossaurImage" className="photo" />
         </div>
       </div>
 

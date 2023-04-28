@@ -14,6 +14,9 @@ export const Container = styled.footer`
     align-items: center;
     padding: 0 125px;
 
+    @media (max-width: 720px) {
+    padding: 0;
+  }
 
     .copyrightText{
       margin-right: 120px;

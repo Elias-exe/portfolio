@@ -19,7 +19,7 @@ export const AboutMeContainer = styled.div`
 
   .aboutMe{
     width: 100%;
-    max-width: 450px;
+    max-width: 650px;
     height: 100%;
     max-height: 450px;
     display: block;

@@ -4,6 +4,12 @@ export const Container = styled.div`
   margin-top: 150px;
   padding: 0 120px;
 
+  @media screen and (max-width: 720px){
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
   p{
     color:#fff;
     font-size: 42px;
@@ -32,7 +38,14 @@ export const Container = styled.div`
 
   .photo{
     img{
+      border-radius: 50%;
       width: 250px;
+    }
+
+    @media (max-width:600px) {
+      img{
+        display: none;
+      }
     }
   }
 
@@ -83,6 +96,10 @@ export const Container = styled.div`
     span{
       font-size: 40px;
       color:#fff;
+
+      @media screen and (max-width: 720px){
+        text-align: center;
+    }
     }
 
     .emphasisTitle{
@@ -93,6 +110,10 @@ export const Container = styled.div`
     p{
       margin-top: 8px;
       font-size: 24px;
+      @media screen and (max-width: 720px){
+        text-align: center;
+        margin-bottom: 24px;
+    }
     }
     .description{
       .emphasis{

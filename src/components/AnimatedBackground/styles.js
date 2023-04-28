@@ -1,6 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  width: 100%;
+  height: 100%;
+
+  @media (max-width:720px) {
+    width: 1vw;
+    height: 1vh;
+  }
 
 @keyframes move {
     100% {
@@ -11,8 +18,8 @@ export const Container = styled.div`
 .background {
     position: fixed;
     z-index: -100;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
     background: #000000;

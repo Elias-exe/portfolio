@@ -11,10 +11,25 @@ export const Container = styled.header`
   align-items: center;
   font-weight: bold;
 
+  @media (max-width: 720px) {
+  width: 100%;
+  height: 70px;
+  border-radius: 10px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  }
+
   a{
     color: ${({ theme }) => theme.colors.primary[300]};
     font-size: 22px;
     text-decoration: none;
+
+    @media (max-width: 720px) {
+    font-size: 17px;
+  }
 
     :hover{
       color: ${({ theme }) => theme.colors.primary[200]};
@@ -25,6 +40,10 @@ export const Container = styled.header`
   .projectsContainer{
     display: flex;
     gap:25px;
+
+  @media (max-width: 720px) {
+  gap: none;
+  }
 
     a{
       display: flex;
